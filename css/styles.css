@@ -1,0 +1,10 @@
+:root {
+    --primari-text-color: #757575;
+    --second-color: #212121;
+    --accent-color: #2196f3;
+    --whitw-color-texte: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
