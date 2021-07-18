@@ -91,6 +91,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 2;
+    cursor: pointer;
     color: var(--whitw-color-texte)
 }
 
@@ -154,6 +155,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    cursor: pointer;
     background: #F5F4FA;
     color: var(--second-color)
 }
