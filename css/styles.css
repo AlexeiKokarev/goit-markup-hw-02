@@ -45,6 +45,7 @@ body {
 
 .nav-link {
     font-weight: 500;
+    letter-spacing: 0.02em;
     color: var(--second-color);
     text-decoration: none;
 }
@@ -57,29 +58,31 @@ body {
     list-style: none;
 }
 
-.contacts-list {}
-
-
-}
 .contact-link {
+    color: var(--primari-text-color);
     text-decoration: none;
-    text-decoration-color: none;
     font-weight: 500;
 }
+
 .contact-link:hover {
     color: var(--accent-color);
     cursor: pointer;
 }
+
 .contact-link-light {
+    text-decoration: none;
     font-weight: 500;
     color: rgb(255, 255, 255, 0.6);
 }
+
 .contact-link-light:hover {
     color: var(--accent-color);
 }
+
 .sections-dark {
     background-color: #2F303A;
 }
+
 .titel-text {
     font-size: 44px;
     font-weight: 900;
@@ -87,6 +90,7 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+
 .btn-primary {
     font-weight: 700;
     font-size: 16px;
@@ -98,20 +102,25 @@ body {
     align-items: center;
     text-align: center;
 }
+
 .btn-primary {
     background-color: var(--accent-color);
 }
+
 .features-list {
     list-style: none;
 }
+
 .features-title {
     font-weight: 700;
     color: var(--second-color);
     text-transform: uppercase;
 }
+
 .features-text {
     color: var(--primari-text-color);
 }
+
 .subtitel-big {
     font-size: 36px;
     font-weight: 700;
@@ -119,48 +128,79 @@ body {
     color: var(--second-color);
     text-align: center;
 }
+
 .work-specifications-list {
     list-style: none;
 }
+
 .team-gallery {
     list-style: none;
 }
+
 .team-gallery-member {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     color: var(--second-color);
 }
+
 .team-gallery-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
+
+.filter {
+    list-style: none;
+}
+
+.filter-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--second-color);
+}
+
+.ftr-button {
+    text-decoration: none;
+    cursor: pointer;
+    background: #F5F4FA;
+}
+
+.ftr-button:hover,
+.ftr-button:focus {
+    background-color: var(--accent-color);
+    color: var(--whitw-color-texte);
+}
+
+.portfolio-list {
+    list-style: none;
+}
+
+.porfolio-link {
+    text-decoration: none;
+}
+
 .subtitle-portfolio {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--second-color);
 }
+
+.portfolio-text {
+    color: var(--primari-text-color);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.9
+}
+
 .address {
     color: var(--second-color);
 }
+
 .address-light {
     line-height: 1.7;
     color: var(--whitw-color-texte);
-}
-.button-secondary {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    cursor: pointer;
-    background: #F5F4FA;
-    color: var(--second-color);
-}
-.button-secondary:focus {
-    background-color: var(--accent-color);
-    color: var(--whitw-color-texte);
-}
-.portfolio-item {
-    color: var(--second-color);
 }
