@@ -6,33 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital@1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <a href="" class="nav-logo"><span class="nav-logo-colored">Web</span>Studio </a>
-            <ul>
-                <li>
-                    <a href="./#" class="nav-link"></a>Студия</li>
-                <li>
-                    <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            <a href="#" class="nav-logo"><span class="nav-logo-colored">Web</span>Studio </a>
+            <ul class="navbar-item">
+                <li class="nav-link">
+                    <a href="./#">Студия</a></li>
+                <li class="nav-link">
+                    <a href="./portfolio.html">Портфолио</a>
                 </li>
-                <li>
-                    <a href="./#" class="nav-link"></a>Контакты</li>
+                <li class="nav-link">
+                    <a href="./#">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li class="contact-link">
-                <a href="info@devstudio.com">
+        <ul class="contacts-list">
+            <li class="contact-item">
+                <a href="info@devstudio.com" class="contact-link">
                 </a> info@devstudio.com </li>
-            <li class="contact-link">
-                <a href="+380961111111"></a> +38 096 111 11 11</li>
+            <li class="contact-item">
+                <a href="+380961111111" class="contact-link"></a> +38 096 111 11 11</li>
         </ul>
     </header>
     <main>
@@ -65,22 +64,41 @@
         <!--secctin3-->
         <section>
             <h2 class="subtitel-big">Чем мы занимаемся</h2>
-            <ul>
-                <li><img src=./image/box1.jpg alt="back-end" width=370>
+            <ul class="work-specifications-list">
+                <li class="work-specifications-item"><img src=./image/box1.jpg alt="back-end" width=370>
                 </li>
-                <li><img src=./image/box2.jpg alt="front-end" width=370></li>
-                <li><img src=./image/box3.jpg alt="design" width=370></li>
+                <li class="work-specifications-item"><img src=./image/box2.jpg alt="front-end" width=370></li>
+                <li class="work-specifications-item"><img src=./image/box3.jpg alt="design" width=370></li>
             </ul>
         </section>
         <!--secctin4-->
         <section>
             <h2 class="subtitel-big">Наша команда</h2>
-            <ul>
-                <li>
-                    <img src=./image/teamcard1.jpg alt="teammate" width=270></li>
-                <li><img src=./image/teamcard2.jpg alt="teammate" width=270></li>
-                <li><img src=./image/teamcard3.jpg alt="teammate" width=270></li>
-                <li><img src=./image/teamcard4.jpg alt="teammate" width=270></li>
+            <ul class="team-gallery">
+                <div>
+                    <li class="team-gallery-item"><img src=./image/teamcard1.jpg alt="teammate" width=270>
+                        <h3>Игорь Демьяненко</h3>
+                        <p>Product Designer</p>
+                    </li>
+                </div>
+                <div>
+                    <li class="team-gallery-item"><img src=./image/teamcard2.jpg alt="teammate" width=270>
+                        <h3>Ольга Репина</h3>
+                        <p>Frontend Developer</p>
+                    </li>
+                </div>
+                <div>
+                    <li class="team-gallery-item"><img src=./image/teamcard3.jpg alt="teammate" width=270>
+                        <h3>Николай Тарасов</h3>
+                        <p>Marketing</p>
+                    </li>
+                </div>
+                <div>
+                    <li class="team-gallery-item"><img src=./image/teamcard4.jpg alt="teammate" width=270>
+                        <h3>Михаил Ермаков</h3>
+                        <p>UI Designer</p>
+                    </li>
+                </div>
             </ul>
         </section>
     </main>
