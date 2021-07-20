@@ -112,6 +112,7 @@ body {
 }
 
 .features-title {
+    font-size: 14px;
     font-weight: 700;
     color: var(--second-color);
     text-transform: uppercase;
