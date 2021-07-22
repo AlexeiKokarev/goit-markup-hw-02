@@ -58,6 +58,10 @@ body {
     list-style: none;
 }
 
+.contacts-list {
+    list-style: none;
+}
+
 .contact-link {
     color: var(--primari-text-color);
     text-decoration: none;
