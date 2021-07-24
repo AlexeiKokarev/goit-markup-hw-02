@@ -54,6 +54,10 @@ body {
     color: var(--accent-color);
 }
 
+.current {
+    color: var(--accent-color)
+}
+
 .contacts {
     list-style: none;
 }
